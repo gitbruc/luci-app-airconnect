@@ -77,6 +77,14 @@ return view.extend({
 		o.default = o.disabled;
 		o.rmempty = false;
 
+		o = s.option(form.ListValue, 'stream_type', _('Sonos stream mode'), _('How Sonos should treat the stream (affects buffering/behavior)'));
+		o.value('broadcast', _('broadcast'));
+		o.value('track', _('track'));
+		o.value('radio', _('radio'));
+		o.default = 'broadcast';
+		o.depends('airupnp', '1');
+		o.rmempty = false;
+
 		o = s.option(form.Flag, 'aircast', _('Chromecast'), _('Enable Chromecast Device Support'));
 		o.default = o.disabled;
 		o.rmempty = false;

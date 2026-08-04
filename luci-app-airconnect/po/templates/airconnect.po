@@ -10,7 +10,7 @@ msgstr ""
 msgid "Bind interface"
 msgstr ""
 
-#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:80
+#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:88
 msgid "Chromecast"
 msgstr ""
 
@@ -18,7 +18,7 @@ msgstr ""
 msgid "Collecting data..."
 msgstr ""
 
-#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:80
+#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:88
 msgid "Enable Chromecast Device Support"
 msgstr ""
 
@@ -34,6 +34,10 @@ msgstr ""
 msgid "Grant UCI access for luci-app-airconnect"
 msgstr ""
 
+#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:80
+msgid "How Sonos should treat the stream (affects buffering/behavior)"
+msgstr ""
+
 #: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:32
 msgid "NOT RUNNING"
 msgstr ""
@@ -46,6 +50,22 @@ msgstr ""
 msgid "Send audio to UPnP/Sonos/Chromecast players using AirPlay."
 msgstr ""
 
+#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:80
+msgid "Sonos stream mode"
+msgstr ""
+
 #: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:76
 msgid "UPnP/Sonos"
+msgstr ""
+
+#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:81
+msgid "broadcast"
+msgstr ""
+
+#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:83
+msgid "radio"
+msgstr ""
+
+#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:82
+msgid "track"
 msgstr ""

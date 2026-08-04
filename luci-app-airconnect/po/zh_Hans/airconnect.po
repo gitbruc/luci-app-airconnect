@@ -17,7 +17,7 @@ msgstr "隔空播放"
 msgid "Bind interface"
 msgstr "绑定接口"
 
-#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:80
+#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:88
 msgid "Chromecast"
 msgstr ""
 
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Collecting data..."
 msgstr "获取数据中..."
 
-#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:80
+#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:88
 msgid "Enable Chromecast Device Support"
 msgstr "启用 Chromecast 设备支持"
 
@@ -41,6 +41,10 @@ msgstr "启用"
 msgid "Grant UCI access for luci-app-airconnect"
 msgstr "授予 luci-app-airconnect UCI 访问权限"
 
+#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:80
+msgid "How Sonos should treat the stream (affects buffering/behavior)"
+msgstr "指定 Sonos 对流的处理方式（会影响缓冲和播放行为）"
+
 #: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:32
 msgid "NOT RUNNING"
 msgstr "未运行"
@@ -53,6 +57,22 @@ msgstr "运行中"
 msgid "Send audio to UPnP/Sonos/Chromecast players using AirPlay."
 msgstr "通过 AirPlay 将音频流传输到 UPnP/Sonos 和 Chromecast 设备。"
 
+#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:80
+msgid "Sonos stream mode"
+msgstr "Sonos 流模式"
+
 #: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:76
 msgid "UPnP/Sonos"
 msgstr ""
+
+#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:81
+msgid "broadcast"
+msgstr "广播"
+
+#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:83
+msgid "radio"
+msgstr "电台"
+
+#: luci-app-airconnect/htdocs/luci-static/resources/view/airconnect.js:82
+msgid "track"
+msgstr "曲目"
